@@ -22,7 +22,7 @@ jobs:
         run: npm install -g vercel
 
       - name: Build the project
-        run: vercel login --Continue with GitHub
+        run: vercel login 
 
       - name: Deploy to Vercel
         run: npx vercel --prod --yes
