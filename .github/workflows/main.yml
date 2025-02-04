@@ -25,4 +25,4 @@ jobs:
     #     run: npm run build
 
       - name: Deploy to Vercel
-        run: npx vercel --prod 
+        run: npx vercel --prod --yes
