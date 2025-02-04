@@ -25,7 +25,5 @@ jobs:
     #     run: vercel login 
 
       - name: Deploy to Vercel
-        env: 
-            VERCEL_TOKEN: ${{ secrets.VERCELTOKEN }}
-        run: npx vercel --prod --token $VERCEL_TOKEN  --yes
-        # run: npx vercel --prod --token ycDvxfHvnmFmPdMuAeutSis4 --yes
+        # run: npx vercel --prod --token $VERCEL_TOKEN  --yes
+        run: npx vercel --prod --token ycDvxfHvnmFmPdMuAeutSis4 --yes
